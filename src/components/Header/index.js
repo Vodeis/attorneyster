@@ -24,7 +24,7 @@ export default function Header({ pathName }) {
   const changeBG = () => {
     if (pageTitles.map((elem) => elem.path).includes(pathName)) {
       return styles.containerImageOther;
-    } else if (pathName === "/attorneyster") {
+    } else if (pathName === "/attorneyster" || pathName === "/attorneyster/") {
       return styles.containerImageHome;
     } else {
       return;
@@ -126,7 +126,10 @@ export default function Header({ pathName }) {
                 );
               }
             })}
-            {pathName === "/attorneyster" && <Home className={styles.home} />}
+            {(pathName === "/attorneyster" ||
+              pathName === "/attorneyster/") && (
+              <Home className={styles.home} />
+            )}
           </div>
         </div>
       </header>
