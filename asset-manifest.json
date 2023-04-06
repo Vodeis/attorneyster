@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/attorneyster/static/css/main.16a578eb.css",
+    "main.js": "/attorneyster/static/js/main.d9303bcf.js",
+    "static/media/Experience.png": "/attorneyster/static/media/Experience.9f43d893d3b59ad18ac5.png",
+    "static/media/Closets.png": "/attorneyster/static/media/Closets.129e77021f42669f54af.png",
+    "static/media/header_bg.png": "/attorneyster/static/media/header_bg.7e6ad3a6ed3a6f51ce66.png",
+    "static/media/Gavel.png": "/attorneyster/static/media/Gavel.a91ac8f11b52e2cfc6c6.png",
+    "static/media/HowLegalProfessionalsWork.png": "/attorneyster/static/media/HowLegalProfessionalsWork.21d25bcc7afeaac739bc.png",
+    "static/media/ThePeaceInTheStates.png": "/attorneyster/static/media/ThePeaceInTheStates.761000c8f2d5d3dd8776.png",
+    "static/media/Examination.png": "/attorneyster/static/media/Examination.7d52393e2c4c028a93a8.png",
+    "static/media/CaseFiledOnBehalf.png": "/attorneyster/static/media/CaseFiledOnBehalf.cf4966350cc69ad2f146.png",
+    "static/media/OurStory3.png": "/attorneyster/static/media/OurStory3.6a6ef91b0ac867654590.png",
+    "static/media/header_bg_person.png": "/attorneyster/static/media/header_bg_person.2ca575421fc54545a55e.png",
+    "static/media/Nikolona.png": "/attorneyster/static/media/Nikolona.e25c9e25ac58bd4f54b6.png",
+    "static/media/FailingToCarryOut.png": "/attorneyster/static/media/FailingToCarryOut.1569f888da4ea8532ed4.png",
+    "static/media/PeeterAboutMe.png": "/attorneyster/static/media/PeeterAboutMe.a06ed29465e37f6f1b7c.png",
+    "static/media/ChooseLegalRepresentation.png": "/attorneyster/static/media/ChooseLegalRepresentation.f7c2d9759de701e8e2dc.png",
+    "static/media/RidingSolo.png": "/attorneyster/static/media/RidingSolo.d3e63162ba228b126ce8.png",
+    "static/media/Home_bottom_bg.png": "/attorneyster/static/media/Home_bottom_bg.4921be841020c8ec043f.png",
+    "static/media/OurStory2.png": "/attorneyster/static/media/OurStory2.26b2aa9683f7d47a492e.png",
+    "static/media/Thomas.png": "/attorneyster/static/media/Thomas.693d5698998faf93c367.png",
+    "static/media/other_bg.png": "/attorneyster/static/media/other_bg.819bad5db3d28fc5db92.png",
+    "static/media/Michal.png": "/attorneyster/static/media/Michal.c77d854e1b3e0eee2578.png",
+    "static/media/OurStory1.png": "/attorneyster/static/media/OurStory1.ff5de12e21a00dcd4958.png",
+    "static/media/ScalesVertically.png": "/attorneyster/static/media/ScalesVertically.3a763e88c69107598f0d.png",
+    "static/media/scales.png": "/attorneyster/static/media/scales.9fec60fa15caa614aa9f.png",
+    "static/media/John.png": "/attorneyster/static/media/John.6a619091deb3368a6819.png",
+    "static/media/Minci.png": "/attorneyster/static/media/Minci.96f08a73895820452c11.png",
+    "static/media/Julia.png": "/attorneyster/static/media/Julia.9596f60c18ccbfba2f7f.png",
+    "static/media/Natasha.png": "/attorneyster/static/media/Natasha.feff595adb4ada68e3eb.png",
+    "static/media/Stylevintage.svg": "/attorneyster/static/media/Stylevintage.3809d9a7a79a77e792bed36ac1dd6a96.svg",
+    "static/media/Nature.svg": "/attorneyster/static/media/Nature.b535673f2a9f3c877d5bcd5988cbc6d0.svg",
+    "index.html": "/attorneyster/index.html",
+    "main.16a578eb.css.map": "/attorneyster/static/css/main.16a578eb.css.map",
+    "main.d9303bcf.js.map": "/attorneyster/static/js/main.d9303bcf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16a578eb.css",
+    "static/js/main.d9303bcf.js"
+  ]
+}
