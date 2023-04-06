@@ -1,0 +1,58 @@
+.bg {
+  background: #1f2732;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.container {
+  display: flex;
+  gap: 121px;
+}
+
+.left {
+  & h1 {
+    font-family: "Cormorant Garamond";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 114.6%;
+    color: #ffffff;
+    margin-bottom: 8px;
+  }
+  & p {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #d7d7d7;
+    margin-top: 38px;
+  }
+}
+.offering {
+  list-style: none;
+  & li:not(li:last-child) {
+    margin-bottom: 15px;
+  }
+  & li {
+    padding: 50px 45px;
+    background: #2E3642;
+    & h2 {
+      font-family: "Cormorant Garamond";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 114.6%;
+      color: #ffffff;
+      margin-bottom: 8px;
+      margin-top: 24px;
+    }
+    & p {
+      font-family: "Outfit";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 140%;
+      color: #d7d7d7;
+    }
+  }
+}

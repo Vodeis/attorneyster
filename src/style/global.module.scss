@@ -1,0 +1,15 @@
+:global {
+  .wrapper {
+    min-width: 1084px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .container {
+    min-width: 1084px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .circle {
+    border-radius: 50%;
+  }
+}

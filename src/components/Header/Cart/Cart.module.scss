@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  align-items: center;
+  & p {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #ffffff;
+    margin-left: 11px;
+    padding-right: 47px;
+  }
+}

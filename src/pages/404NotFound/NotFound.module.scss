@@ -1,0 +1,49 @@
+.bg {
+  background-color: #1f2732;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0 30px 0;
+  & h1 {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 400px;
+    line-height: 114.6%;
+    color: #d1b06b;
+  }
+  & h2 {
+    font-family: "Cormorant Garamond";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 74px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 14px;
+  }
+  & p {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    color: #ffffff;
+  }
+  & a {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #1f2732;
+    padding: 28px 73px;
+    background-color:#D1B06B;
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,200 @@
+.container {
+  background-color: #1f2732;
+  &ImageHome {
+    background: url(../../images/Header/header_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &ImageOther {
+    background: url(../../images/Header/other_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  margin-bottom: 32px;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  & h1 {
+    font-family: "Cormorant Garamond";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 79px;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-left: 12px;
+  }
+}
+.consultationBtn {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #ffffff;
+  padding: 28px 45px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+}
+.cartAndBook {
+  display: flex;
+  align-items: center;
+}
+
+.bottom {
+  padding: 32px 0;
+  border-bottom: 1px solid #4e555f;
+  border-top: 1px solid #4e555f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBar {
+  display: flex;
+  & li a,
+  & li p {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+  }
+  & li:not(li:last-child) {
+    margin-right: 55px;
+  }
+}
+.pagesDropdown {
+  display: flex;
+  align-items: center;
+  & p:first-child {
+    margin-right: 7px;
+  }
+  & svg {
+    margin-top: 5px;
+  }
+  :hover {
+    cursor: pointer;
+  }
+}
+
+.pages {
+  z-index: 2;
+  display: none;
+  position: absolute;
+  top: 45px;
+  left: 0;
+  &_container {
+    position: relative;
+  }
+  & li:not(li:last-child) {
+    margin-bottom: 10px;
+  }
+}
+.show {
+  display: block;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  &Container {
+    display: flex;
+    align-items: center;
+    & > div:first-child {
+      margin-right: 46px;
+    }
+  }
+  &SvgWrapper {
+    border: 2px solid #ccaa60;
+    border-radius: 50%;
+    padding: 22px;
+  }
+  &TextWrapper {
+    margin-left: 12px;
+    font-family: "Outfit";
+    font-style: normal;
+    & p {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 23px;
+      text-transform: capitalize;
+      color: #ccaa60;
+    }
+    & a {
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 28px;
+      color: #ffffff;
+    }
+  }
+}
+
+.pageTitle {
+  padding-top: 60px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  & p {
+    font-family: "Cormorant Garamond";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 74px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 21px;
+  }
+}
+
+.home {
+  display: flex;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: url(../../images/Header/header_bg_person.png) no-repeat;
+  background-size: cover;
+  & > div {
+    width: 50%;
+    & h2 {
+      font-family: "Cormorant Garamond";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 65px;
+      line-height: 74px;
+      color: #ffffff;
+      margin: 13px 0;
+    }
+    & p,
+    button {
+      font-family: "Outfit";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 28px;
+      color: #ccaa60;
+    }
+    & button {
+      font-weight: 500;
+      text-transform: capitalize;
+      color: #1f2732;
+      margin-top: 23px;
+      padding: 28px 82px;
+      background: #D1B06B;
+      border: none;
+    }
+  }
+  & img {
+    position: absolute;
+    top: -116px;
+  }
+}

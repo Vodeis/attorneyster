@@ -1,0 +1,76 @@
+.bg {
+  background: url(../../images/Closets.png) no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+.container {
+  padding: 70px 157.5px;
+  background-color: #1f2732;
+  & form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    & > input:last-child {
+      font-family: "Outfit";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 28px;
+      text-transform: capitalize;
+      color: #1f2732;
+      padding: 28px 45px;
+      background-color: #fff;
+      margin-top: 57px;
+      justify-items: center;
+    }
+    & label {
+      position: relative;
+      &:not(label:nth-child(5)) {
+        width: 45%;
+      }
+      &:nth-child(5) {
+        width: 100%;
+      }
+      &:nth-child(1),
+      &:nth-child(3) {
+        margin-right: 10%;
+        margin-bottom: 57px;
+      }
+      & input,
+      & textarea {
+        background-color: #1f2732;
+        border: none;
+        border-bottom: 1px solid #3a4553;
+        padding: 13px 0;
+        font-family: "Outfit";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 140%;
+        color: #d7d7d7;
+        width: 100%;
+      }
+      & textarea {
+        resize: none;
+        width: 100%;
+      }
+      & input::placeholder,
+      & textarea::placeholder {
+        color: #d7d7d7;
+      }
+      & input:focus,
+      & textarea:focus {
+        outline: none;
+      }
+    }
+  }
+}
+
+.error {
+  font-size: 14px;
+  color: #ff0000;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

@@ -1,0 +1,92 @@
+.bg {
+  background: linear-gradient(rgba(31, 39, 50, 0.29), rgba(31, 39, 50, 0.29)),
+    url(../../../images/Gavel.png) no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+}
+.container {
+  background: rgba(31, 39, 50, 0.85);
+  padding: 50px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  & h2 {
+    font-family: "Cormorant Garamond";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 114.6%;
+    color: #ffffff;
+    margin-bottom: 8px;
+  }
+  & > div > svg {
+    margin-bottom: 50px;
+  }
+  & p {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #d7d7d7;
+  }
+  & ul {
+    list-style: none;
+  }
+}
+.history {
+  width: 33%;
+  & li {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #d1b06b;
+  }
+  & li:not(li:last-child) {
+    margin-bottom: 40px;
+  }
+  & li p {
+    margin-top: 12px;
+  }
+}
+
+.experience {
+  width: 40%;
+  & button {
+    padding: 28px 66px;
+    background: #d1b06b;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #1f2732;
+    border: none;
+  }
+  & ul {
+    margin-top: 53px;
+    margin-bottom: 44px;
+    & li {
+      font-family: "Outfit";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 114.6%;
+      color: #ffffff;
+      position: relative;
+      & span {
+        font-weight: 500;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+    }
+    & li:not(li:last-child) {
+      margin-bottom: 32px;
+    }
+  }
+}
