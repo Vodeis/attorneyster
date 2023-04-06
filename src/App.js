@@ -15,13 +15,13 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/attorneyster" element={<Template />}>
-            <Route index element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/practies" element={<Practies />} />
-            <Route path="/cases" element={<Cases />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/contacts" element={<Contacts />} />
+          <Route path="/" element={<Template />}>
+            <Route path="/attorneyster" element={<Home />} />
+            <Route path="/attorneyster/about" element={<About />} />
+            <Route path="/attorneyster/practies" element={<Practies />} />
+            <Route path="/attorneyster/cases" element={<Cases />} />
+            <Route path="/attorneyster/blog" element={<Blog />} />
+            <Route path="/attorneyster/contacts" element={<Contacts />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
