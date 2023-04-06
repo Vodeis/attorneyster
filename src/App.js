@@ -15,7 +15,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Template />}>
+          <Route path="/attorneyster" element={<Template />}>
             <Route index element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/practies" element={<Practies />} />
